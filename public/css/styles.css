@@ -1772,8 +1772,8 @@ p {
 
 .why-content .why-title {
     font-family: "Cormorant Garamond", serif;
-    font-size: 31px;
-    font-weight: 700;
+    font-size: 24px !important;
+    font-weight: 900;
     line-height: 1.2;
     color: #132645;
     margin-bottom: 15px;
@@ -1807,13 +1807,17 @@ p {
     }
 }
 
-@media(max-width:576px) {
+@media(max-width:767px) {
     .section-heading {
         margin-bottom: 50px;
     }
 
     .section-heading h3 {
-        font-size: 34px;
+        font-size: 24px !important;
+    }
+
+    .section-heading p {
+        font-size: 14px !important;
     }
 
     .why-item {
@@ -1829,11 +1833,11 @@ p {
     }
 
     .why-content .why-title {
-        font-size: 28px;
+        font-size: 20px !important;
     }
 
     .why-content p {
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 
@@ -2175,7 +2179,11 @@ p {
     }
 
     .layanan-hero h1 {
-        font-size: clamp(32px, 8vw, 44px);
+        font-size: 28px;
+    }
+
+    .layanan-hero h1 span{
+        font-size: 28px;
     }
 
     .layanan-hero__underline {
@@ -5130,7 +5138,15 @@ p {
     }
 
     .list-kota-header h2 {
-        font-size: 34px !important;
+        font-family: 'Georgia', serif !important;
+        font-size: 30px !important;
+        line-height: 1.4;
+        margin-bottom: 12px;
+    }
+
+    .list-kota-header h2 span{
+        font-family: 'Georgia', serif !important;
+        font-size: 30px !important;
         line-height: 1.4;
         margin-bottom: 12px;
     }
